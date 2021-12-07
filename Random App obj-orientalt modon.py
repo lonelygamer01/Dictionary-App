@@ -22,7 +22,7 @@ class Mainsite:
     def __init__(self):
         self.canvas()
         self.title()
-        self.Note()
+        self.note()
         self.entry()
         self.exit()
         self.submit()
@@ -38,7 +38,7 @@ class Mainsite:
         title.config(font=("Comic Sans MS",24, "bold"))
         title.place(relx= 0.26, rely=0.02, height=80, width=330)
 
-    def Note(self):
+    def note(self):
         question = Label(window, text="NOTE: This app is under development \n please let me know if you have any ideas!\n Make sure you type in the words properly!", bg="white", fg="black")
         question.config(font=("Comic Sans MS",11, "bold"))
         question.place(relx=0.26, rely=0.2, height=130, width=330)
