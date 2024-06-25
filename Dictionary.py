@@ -14,7 +14,7 @@ translator = Translator()
 
 textvar = StringVar()
 
-url = "https://www.instagram.com/ez_egy_masik_account/?hl=hu"
+url = ""
 def openlink():
         webbrowser.open(url,1)
 
@@ -61,13 +61,13 @@ contact = Button(canvas, text="Instagram contact", bg="steelblue", bd=0, command
 contact.config(font=("Comic Sans MS",11, "bold"), cursor="hand2")
 contact.place(relx=0.76, rely=0.86,width=150, height=50)
 
-image1 = Image.open("C:/Users/User/PycharmProjects/Dictionary App/flag-hungary.jpg")
+image1 = Image.open("flag-hungary.jpg")
 photo1 = ImageTk.PhotoImage(image1)
 hunflag = Label(canvas, image=photo1)    
 hunflag.place(width=150, height=150, relx=0.01, rely=0.1)
 
 
-image2 = Image.open("C:/Users/User/PycharmProjects/Dictionary App/flag-britain.JPEG")
+image2 = Image.open("flag-britain.JPEG")
 photo2 = ImageTk.PhotoImage(image2)
 britflag = Label(canvas, image=photo2)    
 britflag.place(width=150, height=150, relx=0.77, rely=0.1)    
